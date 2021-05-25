@@ -96,6 +96,9 @@ class IOWebSocketChannel extends StreamChannelMixin
       : _webSocket = null,
         stream = stream.handleError(
             (error) => throw WebSocketChannelException.from(error));
+
+  @override
+  int get readyState => _webSocket!.readyState;
 }
 
 /// A [WebSocketSink] that forwards [close] calls to a `dart:io` [WebSocket].

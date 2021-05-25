@@ -9,8 +9,8 @@ import 'dart:typed_data';
 
 import 'package:async/async.dart';
 import 'package:test/test.dart';
-import 'package:web_socket_channel/html.dart';
-import 'package:web_socket_channel/web_socket_channel.dart';
+import 'package:web_socket_channel_fork/html.dart';
+import 'package:web_socket_channel_fork/web_socket_channel.dart';
 
 void main() {
   late int port;

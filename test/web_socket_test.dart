@@ -9,7 +9,7 @@ import 'dart:io';
 import 'package:stream_channel/stream_channel.dart';
 import 'package:test/test.dart';
 
-import 'package:web_socket_channel/web_socket_channel.dart';
+import 'package:web_socket_channel_fork/web_socket_channel.dart';
 
 void main() {
   group('using WebSocketChannel', () {

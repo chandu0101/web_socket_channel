@@ -119,6 +119,9 @@ class HtmlWebSocketChannel extends StreamChannelMixin
       }
     });
   }
+
+  @override
+  int get readyState => _webSocket.readyState;
 }
 
 /// A [WebSocketSink] that tracks the close code and reason passed to [close].

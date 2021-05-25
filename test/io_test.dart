@@ -6,8 +6,8 @@
 import 'dart:io';
 
 import 'package:test/test.dart';
-import 'package:web_socket_channel/io.dart';
-import 'package:web_socket_channel/web_socket_channel.dart';
+import 'package:web_socket_channel_fork/io.dart';
+import 'package:web_socket_channel_fork/web_socket_channel.dart';
 
 void main() {
   HttpServer server;
