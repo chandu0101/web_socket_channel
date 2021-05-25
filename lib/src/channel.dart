@@ -44,6 +44,8 @@ class WebSocketChannel extends StreamChannelMixin {
   /// Before the connection has been closed, this will be `null`.
   int? get closeCode => _webSocket.closeCode;
 
+  int get readyState => _webSocket.readyState;
+
   /// The [close reason][] set when the WebSocket connection is closed.
   ///
   /// [close reason]: https://tools.ietf.org/html/rfc6455#section-7.1.6
